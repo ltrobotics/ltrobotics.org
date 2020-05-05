@@ -313,6 +313,7 @@
     var opThree = document.getElementById("choice3").getElementsByTagName("option");
     var opFour = document.getElementById("choice4").getElementsByTagName("option");
     var picks = ["0", "0", "0", "0"]
+    var loc = [0, 0, 0, 0]
     document.getElementById('choice1').addEventListener('change', function () {
       picks[0] = this.value;
       update();
@@ -327,6 +328,7 @@
     });
     document.getElementById('choice4').addEventListener('change', function () {
       picks[3] = this.value;
+      loc[4] = 1
      update();
     });
     function update() {
@@ -336,14 +338,34 @@
         opThree[i].disabled = false;
         opFour[i].disabled = false;
       }
-      for (var j = 0; j < 4; j++) {			// then disables all four picks on all four dropdowns
-        opOne[parseInt(picks[j])].disabled = true;
-        opTwo[parseInt(picks[j])].disabled = true;
-        opThree[parseInt(picks[j])].disabled = true;
-        opFour[parseInt(picks[j])].disabled = true;
+      for (var j = 0; j < 4; j++) {
+        if(j !== 0) {			// then disables all four picks on all four dropdowns
+          opOne[parseInt(picks[j])].disabled = true;
+        }
+        if(j !== 1) {
+          opTwo[parseInt(picks[j])].disabled = true;
+        }
+        if(j !== 2) {
+          opThree[parseInt(picks[j])].disabled = true;
+        }
+        if(j !== 3) {
+          opFour[parseInt(picks[j])].disabled = true;
+        }
       }
-    }//why no work on publish
-    </script>
+    }
+        /*if (!(notDel == 1)) {
+          opOne[parseInt(picks[j])].disabled = true;
+        }
+        if (!(notDel == 2)){
+        opTwo[parseInt(picks[j])].disabled = true;
+        }
+        if(!(notDel == 2)) {
+          opThree[parseInt(picks[j])].disabled = true;
+        }
+        if(!(notDel == 2)) {
+          opFour[parseInt(picks[j])].disabled = true;
+        }*/
+  </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
