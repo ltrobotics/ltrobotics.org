@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="scripts/csvparser.js"></script>
     <title>Officer Elections 2020-2021</title>
 </head>
 
@@ -28,7 +29,7 @@
                     </h2>
                 </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
                     <div class="row">
                       <div class="col-sm-3">
@@ -44,22 +45,31 @@
                       <div class="col-sm-9">
                         <div class="tab-content" id="v-pills-tabContent">
                           <div class="tab-pane fade show active" id="pillsOneOne" role="tabpanel" aria-labelledby="pillsOne">
-                            <h5>Introduction</h5>
-                            <p>There are 4 candidates for President. Each candidate has been asked to provide a response to the questions in the sidebar.</p><br>
-                            <h5>Who are you? (answer as you wish...)</h5>
-                            <p><b>Truett Anstey</b><br>My name is Truett Anstey and I am a rising Senior. I am the current Team Captain for the Regional and State qualifying robotics team. I will be in Robotics 2 my Senior year and this will be the 5th Engineering Course I have taken through Lake Travis.<br><br><b>Katie Goclan</b><br>I am Katie Goclan. I have been interested in robotics and engineering since middle school when I finally got to join an engineering class. I am the kind of person who is always willing to help a friend out whether they need help with homework or just need someone to talk to. I have not been involved in many clubs in the past because I was scared to join but now that I have found a club that I am really passionate about I want to help it out by running for a leadership position.<br><br><b>Preston Greenwood</b><br>I'm a hardworking, upbeat LT student that is passionate about robotics and basketball.<br><br><b>Sarah Kelbaugh</b><br>I am Sarah Kelbaugh, a current Junior and on the competition team 78738A.</p>
+                            <h5>Introduction</h5><hr>
+                            <p id="title"> </p><br>
+                            <h5>Who are you? (answer as you wish...)</h5><hr>
+                            <div id="intro">
+                            </div>
                           </div>
-                          <div class="tab-pane fade" id="pillsOneTwo" role="tabpanel" aria-labelledby="pillsTwo"><h5>Why do you think you are qualified for this position?</h5>
-                            <p><b>Truett Anstey</b><br>I am qualified for this position due to my past leadership experiences from being the captain of the B team as well as my commitment to furthering the robotics program. Along with this, I have taken engineering courses since 7th grade, and I want to use these connections to launch outreach programs where we send groups of kids to the middle schools in order to teach kids about robotics and introduce them to the program.<br><br><b>Katie Goclan</b><br>I think I am qualified for this position because I have been doing a similar job to being the president of the club without being the president. I have communicated with Mr. Hulsey a lot with ideas for the club, I have collected forms and money from other students and turned it into Mr. Hulsey, and I have helped Mr. Hulsey in running the organization smoothly.<br><br><b>Preston Greenwood</b><br>I am a strong leader.  I have been involved in robotics since I was little, with my first official team being Lego robotics is 6th grade.  I really enjoy the LT robotics team and want to help make it the best it can be.<br><br><b>Sarah Kelbaugh</b><br>I believe that I am qualified for this position because I love being in the robotics program and I am dedicated to helping our club. I will put forth my time and effort to make sure that everything will run as smoothly as possible throughout the year.</p>
+                          <div class="tab-pane fade" id="pillsOneTwo" role="tabpanel" aria-labelledby="pillsTwo">
+                            <h5>Why do you think you are qualified for this position?</h5><hr>
+                            <div id="qual">
+                            </div>
                           </div>
-                          <div class="tab-pane fade" id="pillsOneThree" role="tabpanel" aria-labelledby="pillsThree"><h5>What will you uniquely bring to this position?</h5>
-                            <p><b>Truett Anstey</b><br>I feel that by being elected to this position I will bring a level of commitment to the robotics club that no other officer will bring. Last season I sought out the first sponsorship our team had received, and in order to accomplish this, I met with their board of directors and presented to them why our team would be a good fit for their sponsorship. Along with this, I will bring my past leadership experience from being a team captain last year.<br><br><b>Katie Goclan</b><br>I am the kind of person who can always find something to do voting me president would allow me to find random small jobs for other students to do if they do not know what to do. I have not been a leader in another club but I have been a leader in the robotics club.<br><br><b>Preston Greenwood</b><br>I am an easy going person and enjoy making connections with a wide range of people and personalities. I always have a glass half full perspective on life and stay calm under pressure.<br><br><b>Sarah Kelbaugh</b><br>I can bring different unique qualities to this club due to the leadership skills I have gained from my time in DECA. I was taught how to think on my feet, problem solving and being able to work collaborative.</p>
+                          <div class="tab-pane fade" id="pillsOneThree" role="tabpanel" aria-labelledby="pillsThree">
+                            <h5>What will you uniquely bring to this position?</h5><hr>
+                            <div id="uniq">
+                            </div>
                           </div>
-                          <div class="tab-pane fade" id="pillsOneFour" role="tabpanel" aria-labelledby="pillsFour"><h5>What are your goals for the robotics program?</h5>
-                            <p><b>Truett Anstey</b><br>My goals for the robotics program are to simply help expand the program and help establish a foundation that will outlast my time as president and allow the program to be fit for expansion in the future.<br><br><b>Katie Goclan</b><br>I want to improve communication between the different teams. This year we had three teams and A team and B team were great at communicating with each other however since the C team was a freshman team it was hard for A team and B team to communicate with them outside of class. I would like to be president so I can continue working for the club and creating small other projects such as a lock-in, team dinners, and summer meetings and practices for 2020-2021.<br><br><b>Preston Greenwood</b><br>My goal is to build strong competitive teams and create an environment where  knowledge and experience is shared so that we retain members year to year and new members feel welcome and set up for success when they join.  Ultimately this will grow the program. Also, let's have fun (this is really my biggest goal) and maintain the friendly, positive environment we have (which makes it more fun)!<br><br><b>Sarah Kelbaugh</b><br>My goals for the robotics club is to expand the program by getting more people involved along with more sponsors to help. I would like to host events for middle school to get them to join our club once they move into high school. I would also like to create community awareness to also further expand our club.</p>
+                          <div class="tab-pane fade" id="pillsOneFour" role="tabpanel" aria-labelledby="pillsFour">
+                            <h5>What are your goals for the robotics program?</h5><hr>
+                            <div id="goals">
+                            </div>
                           </div>
-                          <div class="tab-pane fade" id="pillsOneFive" role="tabpanel" aria-labelledby="pillsFive"><h5>Describe your leadership style.</h5>
-                            <p><b>Truett Anstey</b><br>My leadership style is one that is built off of respect, and proper communication. In my eyes, a good leader is well spoken, and should always be held to the highest standard. I will ensure that I live up to my own ideas of a good leader, and expand upon them. I want to be able to communicate and coach others, while still being open to new ideas that are presented to me.<br><br><b>Katie Goclan</b><br>My leadership style could be described as democratic. I like to know the facts of situations and what others think of something before I make a decision. However, I will always choose what is best for the team and come up with ideas that will benefit the whole club and not just one team. I am able to get things done in any way as long as I see that it will benefit the club as a whole. <br><br><b>Preston Greenwood</b><br>I lead by example.  I treat other people the way I want to be treated.  I am not one to micromanage people but will let them know if they get out of line and I will offer my help to get them back in line. I have a lot of patience when it comes to dealing with and solving problems.  I like to lead as part of the team and allow others to contribute at all levels. <br><br><b>Sarah Kelbaugh</b><br>My leadership style is democratic leadership, I enjoy hearing others feedback on what is going on along with making sure everyone is feeling confident with big decisions. I want the club to feel comfortable with what's happening and be able to respond and give suggestions as we move forward.</p>
+                          <div class="tab-pane fade" id="pillsOneFive" role="tabpanel" aria-labelledby="pillsFive">
+                            <h5>Describe your leadership style.</h5><hr>
+                            <div id="lead">
+                            </div>
                           </div>
                           <div class="tab-pane fade" id="pillsOneSix" role="tabpanel" aria-labelledby="pillsSix">
                             <h5>Videos</h5>
@@ -86,156 +96,6 @@
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Candidates for Treasurer
-                      </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                          <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#pillsThreeOne" role="tab" aria-controls="pillsOne" aria-selected="true">Introduction</a>
-                          <a class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#pillsThreeTwo" role="tab" aria-controls="pillsTwo" aria-selected="false">Question 2</a>
-                          <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#pillsThreeThree" role="tab" aria-controls="pillsThree" aria-selected="false">Question 3</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                          <div class="tab-pane fade show active" id="pillsThreeOne" role="tabpanel" aria-labelledby="pillsOne"><h5>Introduction</h5>
-                          <p>Today will only be for the election of the President and Vice President.</p><br></div>
-                          <div class="tab-pane fade" id="pillsThreeTwo" role="tabpanel" aria-labelledby="pillsTwo"><b>Question 2</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                          <div class="tab-pane fade" id="pillsThreeThree" role="tabpanel" aria-labelledby="pillsThree"><b>Question 3</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFour">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Candidates for Secretary
-                      </button>
-                    </h2>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                          <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#pillsFourOne" role="tab" aria-controls="pillsOne" aria-selected="true">Introduction</a>
-                          <a class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#pillsFourTwo" role="tab" aria-controls="pillsTwo" aria-selected="false">Question 2</a>
-                          <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#pillsFourThree" role="tab" aria-controls="pillsThree" aria-selected="false">Question 3</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                          <div class="tab-pane fade show active" id="pillsFourOne" role="tabpanel" aria-labelledby="pillsOne"><h5>Introduction</h5>
-                          <p>Today will only be for the election of the President and Vice President.</p><br></div>
-                          <div class="tab-pane fade" id="pillsFourTwo" role="tabpanel" aria-labelledby="pillsTwo"><b>Candidate 2</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                          <div class="tab-pane fade" id="pillsFourThree" role="tabpanel" aria-labelledby="pillsThree"><b>Candidate 3</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFive">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Candidates for Event Director
-                      </button>
-                    </h2>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                          <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#pillsFiveOne" role="tab" aria-controls="pillsOne" aria-selected="true">Introduction</a>
-                          <a class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#pillsFiveTwo" role="tab" aria-controls="pillsTwo" aria-selected="false">Question 2</a>
-                          <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#pillsFiveThree" role="tab" aria-controls="pillsThree" aria-selected="false">Question 3</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                          <div class="tab-pane fade show active" id="pillsFiveOne" role="tabpanel" aria-labelledby="pillsOne"><h5>Introduction</h5>
-                          <p>Today will only be for the election of the President and Vice President.</p><br></div>
-                          <div class="tab-pane fade" id="pillsFiveTwo" role="tabpanel" aria-labelledby="pillsTwo"><b>Candidate 2</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                          <div class="tab-pane fade" id="pillsFiveThree" role="tabpanel" aria-labelledby="pillsThree"><b>Candidate 3</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSix">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        Candidates for Comms Director
-                      </button>
-                    </h2>
-                </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-sm-3">
-                          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#pillsSixOne" role="tab" aria-controls="pillsOne" aria-selected="true">Introduction</a>
-                            <a class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#pillsSixTwo" role="tab" aria-controls="pillsTwo" aria-selected="false">Question 2</a>
-                            <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#pillsSixThree" role="tab" aria-controls="pillsThree" aria-selected="false">Question 3</a>
-                          </div>
-                        </div>
-                        <div class="col-sm-9">
-                          <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="pillsSixOne" role="tabpanel" aria-labelledby="pillsOne"><h5>Introduction</h5>
-                            <p>Today will only be for the election of the President and Vice President.</p><br></div>
-                            <div class="tab-pane fade" id="pillsSixTwo" role="tabpanel" aria-labelledby="pillsTwo"><b>Candidate 2</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                            <div class="tab-pane fade" id="pillsSixThree" role="tabpanel" aria-labelledby="pillsThree"><b>Candidate 3</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSeven">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        Candidates for Equipment Manager
-                      </button>
-                    </h2>
-                </div>
-                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-sm-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                          <a class="nav-link active text-center" id="v-pills-home-tab" data-toggle="pill" href="#pillsSevenOne" role="tab" aria-controls="pillsOne" aria-selected="true">Introduction</a>
-                          <a class="nav-link text-center" id="v-pills-profile-tab" data-toggle="pill" href="#pillsSevenTwo" role="tab" aria-controls="pillsTwo" aria-selected="false">Question 2</a>
-                          <a class="nav-link text-center" id="v-pills-messages-tab" data-toggle="pill" href="#pillsSevenThree" role="tab" aria-controls="pillsThree" aria-selected="false">Question 3</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-9">
-                        <div class="tab-content" id="v-pills-tabContent">
-                          <div class="tab-pane fade show active" id="pillsSevenOne" role="tabpanel" aria-labelledby="pillsOne"><h5>Introduction</h5>
-                          <p>Today will only be for the election of the President and Vice President.</p><br></div>
-                          <div class="tab-pane fade" id="pillsSevenTwo" role="tabpanel" aria-labelledby="pillsTwo"><b>Candidate 2</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                          <div class="tab-pane fade" id="pillsSevenThree" role="tabpanel" aria-labelledby="pillsThree"><b>Candidate 3</b><br>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
                         </div>
                       </div>
                     </div>
@@ -309,7 +169,39 @@
         <br>
         <br>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
     <script>
+    //scripts for filling in each section
+    var names = ["Truett", "Katie", "Sarah", "Preston"];
+    var intro = Papa.parse("https://ltrobotics.org/vote/president.csv", {
+	     download: true,
+    });
+    var tabs = ["intro", "qual", "uniq", "goals", "lead"];//hardcoded list
+    var candNum = names.length;
+    //change detailed numbers
+    document.getElementById("title").innerHTML = "There are " + candNum + " candidates for President. Each candidate has been asked to provide a response to each of the questions in the sidebar.";
+    //add names to each section
+    var i;
+    for (i = 0; i < candNum; i++) {
+      var j;
+      for (j = 0; j < 5; j++) {
+        //insert names in bold
+        var tab = document.getElementById(tabs[j]);
+        var node = document.createElement("P");
+        var bold = document.createElement("B");
+        var namenode = document.createTextNode(names[i]);
+        bold.appendChild(namenode);
+        node.appendChild(bold);
+        tab.appendChild(node);
+        //insert text
+        var text = document.createElement("P");
+        var textnode = document.createTextNode(intro[j][i]);
+        text.appendChild(textnode);
+        tab.appendChild(text);
+      }
+    }
+    //change names inside of the ballot
+    //below is script for ballot
     var opOne = document.getElementById("choice1").getElementsByTagName("option");
     var opTwo = document.getElementById("choice2").getElementsByTagName("option");
     var opThree = document.getElementById("choice3").getElementsByTagName("option");
@@ -355,18 +247,6 @@
         }
       }
     }
-        /*if (!(notDel == 1)) {
-          opOne[parseInt(picks[j])].disabled = true;
-        }
-        if (!(notDel == 2)){
-        opTwo[parseInt(picks[j])].disabled = true;
-        }
-        if(!(notDel == 2)) {
-          opThree[parseInt(picks[j])].disabled = true;
-        }
-        if(!(notDel == 2)) {
-          opFour[parseInt(picks[j])].disabled = true;
-        }*/
   </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
