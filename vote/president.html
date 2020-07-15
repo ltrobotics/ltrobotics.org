@@ -173,9 +173,13 @@
     <script>
     //scripts for filling in each section
     var names = ["Truett", "Katie", "Sarah", "Preston"];
-    var intro = Papa.parse("https://ltrobotics.org/vote/president.csv", {
-	     download: true,
-    });
+    var intro = [
+      ["Truett test text1","Katie test text1","Sarah test text1","Preston test text1"],
+      ["Truett test text2","Katie test text2","Sarah test text2","Preston test text2"],
+      ["Truett test text3","Katie test text3","Sarah test text3","Preston test text3"],
+      ["Truett test text4","Katie test text4","Sarah test text4","Preston test text4"],
+      ["Truett test text5","Katie test text5","Sarah test text5","Preston test text5"]
+    ];
     var tabs = ["intro", "qual", "uniq", "goals", "lead"];//hardcoded list
     var candNum = names.length;
     //change detailed numbers
