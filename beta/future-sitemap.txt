@@ -1,12 +1,12 @@
 Home
-|- Teams
-   |- 78738A
-   |- 78738B
-   |- 78738C
-|- About
-   |- Leadership
-   |- Sponsors
-   |- VEX Overview
-|- Calendar
-|- Blog
-|- **Contact Us**
+|- Teams(blank)
+   |- 78738A -> Completed
+   |- 78738B -> Completed
+   |- 78738C -> Completed
+|- About(blank)
+   |- Leadership -> Page to be created
+   |- Sponsors -> Page to be created
+   |- VEX Overview -> Page to be created
+|- Calendar -> Completed
+|- Blog -> Completed
+|- **Contact Us** -> Still need POST webhook
