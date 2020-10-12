@@ -1,0 +1,12 @@
+Home
+|- Teams
+   |- 78738A
+   |- 78738B
+   |- 78738C
+|- About
+   |- Leadership
+   |- Sponsors
+   |- VEX Overview
+|- Calendar
+|- Blog
+|- **Contact Us**
