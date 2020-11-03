@@ -1,0 +1,12 @@
+# Base Info
+url: 'localhost:4000'
+title: 'LT Robotics'
+description: 'Robotics Club at Lake Travis High School'
+loc: 'Austin, Texas'
+year: '2020'
+# Social Media
+github: 'ltrobotics'
+email: 'ltrobotics78738@gmail.com'
+
+# Blog(future deployment)
+permalink: 'blog/:title'

@@ -1,0 +1,27 @@
+- name: Truett Anstey
+  position: President
+  img: /images/pic02.jpg
+
+- name: Katie Goclan
+  position: Vice President
+  img: /images/pic02.jpg
+
+- name: Robert Delmark
+  position: Treasurer
+  img: /images/pic02.jpg
+
+- name: Joshua Koshy
+  position: Secretary
+  img: /images/pic02.jpg
+
+- name: Mason Barber
+  position: Equipment Manager
+  img: /images/pic02.jpg
+
+- name: Andrew Matthew
+  position: Communications Director
+  img: /images/pic02.jpg
+  
+- name: Sam Orgeldinger
+  position: Event Director
+  img: /images/pic02.jpg

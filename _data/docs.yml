@@ -1,0 +1,11 @@
+- name: Constitution
+  desc: The governing principles of the Club
+  link: #
+
+- name: Bylaws
+  desc: The rules that all members must abide by
+  link: #
+
+- name: VEX Permission Form
+  desc: Permission form that needs to be turned in prior to attending events
+  link: https://www.roboticseducation.org/documents/2018/03/participant-release-form.pdf/
