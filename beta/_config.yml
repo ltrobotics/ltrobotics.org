@@ -1,0 +1,11 @@
+# Base Info
+url: 'ltrobotics.org'
+title: 'LT Robotics'
+description: 'Robotics Club at Lake Travis High School'
+
+# Social Media
+github: 'ltrobotics'
+email: 'ltrobotics78738@gmail.com'
+
+# Blog(future deployment)
+permalink: 'blog/:title'

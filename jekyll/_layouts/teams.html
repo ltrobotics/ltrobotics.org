@@ -1,0 +1,30 @@
+---
+layout: normal
+---
+<section id="content">
+  <h3>The {{ page.title }} Team</h3>
+  <div class="row gtr-20 gtr-uniform">
+    <p><span class="image left"><img src="{{ site.url }}{{ page.img }}" alt="The {{ page.name }} Team" /></span>
+      {{ page.desc }}<br>
+    <br><b>Driver:</b> {{ page.driver }}<br>
+    <b>Programmer:</b> {{ page.programmer }}<br>
+    <b>Building:</b> {{ page.builder}}</p>
+    <div class="col-6 col-12-xsmall">
+      <h3>Our Robot</h3>
+      <p>{{ content }}</p>
+    </div>
+    <div class="col-6 col-12-xsmall"><iframe width="90%" height="400" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
+  <br><br>
+  <div class="row gtr-20 gtr-uniform">
+    {% for award in site.data.awards %}
+      {% if award.teamID == page.subtitle %}
+        <div class="col-3 col-6-xsmall"><span class="image fit"><img src="{{ site.url }}/images/trophy.jpg" alt="" /></span></div>
+        <div class="col-3 col-6-xsmall">
+          <h3>{{ award.type }}</h3>
+          <p>{{ award.desc }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

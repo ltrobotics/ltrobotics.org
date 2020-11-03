@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  {% include header.html %}
+  <body class="is-preload landing">
+		<div id="page-wrapper">
+      {% include navbar.html %}
+      <div id="main" class="wrapper style1">
+        <div class="container">
+          <header class="major">
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.subtitle }}</p>
+          </header>
+          <section id="content">
+            {{ content }}
+          </section>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>
