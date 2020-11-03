@@ -1,4 +1,4 @@
 ---
 layout: redirect
-url: https://ltroboticsclubgroup.slack.com/
+url: https://blog.ltrobotics.org/
 ---
