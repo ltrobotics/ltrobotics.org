@@ -3,6 +3,9 @@
 layout: default
 title: Home
 
+#images
+logoImg: /images/logo_black.png
+storyImg: /images/lths.jpg
 #story
 storyTitle: The Lake Travis Story
 storyTag: A small but rapidly growing program
