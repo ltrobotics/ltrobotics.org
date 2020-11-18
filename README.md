@@ -5,4 +5,4 @@ Built on Jekyll and deployed by Github Pages \
 \
 Design by [HTML5UP](https://html5up.net) \
 \
-Any errors should be reported to web[at]ltrobotics.org
+Any errors should be reported to web[at]ltrobotics.org or be nice and make a pull request :)
