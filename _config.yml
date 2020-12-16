@@ -7,8 +7,8 @@ year: '2020'
 # Social Media
 github: 'ltrobotics'
 email: 'ltrobotics78738@gmail.com'
-lths: 'ltisdschools.org/lths'
-ltisd: 'ltisdschools.org'
+lths: 'https://ltisdschools.org/lths'
+ltisd: 'https://ltisdschools.org'
 
 # Blog(future deployment)
 permalink: 'blog/:title'
