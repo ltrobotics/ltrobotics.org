@@ -19,7 +19,7 @@ subtitle: Questions? Want to join the team? Contact us here using email! *The fo
         </div>
         <div class="col-12">
           <ul class="actions">
-            <li><input type="submit" value="Send Message" class="primary" disabled></input></li>
+            <li><input type="submit" value="Send Message" class="primary" disabled></li>
             <li><input type="reset" value="Reset" /></li>
           </ul>
         </div>
