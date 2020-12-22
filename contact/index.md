@@ -15,6 +15,7 @@ subtitle: Questions? Want to join the team? Contact us here!
         </div>
         <div class="col-12">
           <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+          <input type="hidden" name="hp" id="hp" value="" placeholder="Haha gotem" />
         </div>
         <div class="col-12">
           <ul class="actions">
