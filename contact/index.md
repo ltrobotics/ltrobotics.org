@@ -1,7 +1,7 @@
 ---
 layout: normal
 title: Contact Us
-subtitle: Questions? Want to join the team? Contact us here!
+subtitle: Questions? Want to join the team? Contact us here using email! *The form is disabled because spammers
 ---
 <section id="content">
   <section>
@@ -19,7 +19,7 @@ subtitle: Questions? Want to join the team? Contact us here!
         </div>
         <div class="col-12">
           <ul class="actions">
-            <li><input type="submit" value="Send Message" class="primary" /></li>
+            <li><input type="submit" value="Send Message" class="primary" /disabled></li>
             <li><input type="reset" value="Reset" /></li>
           </ul>
         </div>
