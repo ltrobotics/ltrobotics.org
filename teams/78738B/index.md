@@ -2,7 +2,7 @@
 layout: teams
 title: Omnitron
 subtitle: '51200A'
-desc: We are the second team in the LT Robotics
+desc: Internationally ranked team with especially strong documentation
 driver: Andrew Mathew
 builder: Daniel, Ayesha, Connor, Hanna
 img: /images/IMG_2793.jpg #
