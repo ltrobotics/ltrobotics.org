@@ -1,6 +1,6 @@
 ---
 layout: teams
-title: Europa
+title: Parallax
 subtitle: '51200E'
 desc: We are the first team in the LT Robotics
 driver:
