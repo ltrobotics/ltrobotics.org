@@ -9,5 +9,5 @@ builder:
 img: /images/pic02.jpg #
 video: https://www.youtube.com/embed/5zQBUoj7-ic #must be embed link
 ---
-Distinctions:.\
-Think Award
+Distinctions:\
+Tournament Champion, Skills Champion, Excelence Award, Think Award
