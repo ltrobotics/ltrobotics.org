@@ -1,7 +1,7 @@
 ---
 layout: teams
-title: ThunderCavs
-subtitle: '78738C'
+title: Blitz
+subtitle: '51200B'
 desc: We are the third team in the LT Robotics
 driver:
 programmer:
