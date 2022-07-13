@@ -11,5 +11,5 @@ video: https://www.youtube.com/embed/TvLkxLwfaHc #must be embed link
 ---
 Distinctions
 - Internationals Qualified
-- Notebook Award
+- Notebook Award\
 View more videos of our robot here: [Google Drive Link](https://drive.google.com/drive/folders/1zKEFD8j05I1AcIS_jm5C9jBCvoCSQghR?usp=sharing)
