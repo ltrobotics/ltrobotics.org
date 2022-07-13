@@ -11,11 +11,11 @@ storyTitle: The Lake Travis Story
 storyTag: A small but rapidly growing program
 
 ---
-Lake Travis High School Robotics started out in the 2018-2019 school year.\
+Lake Travis High School Robotics has been active from 2019-2022.\
 \
-Our coach for this year is Mr.Mills.\
+Our coach for this year is Mr. Erik.\
 \
 Currently, the program consist of three teams:
-RoboCAVS(78738A), CAValanche(78738B), and the ThunderCAVS(78738C).\
+Parallax(51200E), Omnitron(51200A), and the Blitz(51200B).\
 \
-We are a young program but we hope to become a large team in the VEX Competition world.
+We are a small but successfull program, with 3 teams traveling to internationals.
