@@ -7,7 +7,7 @@ driver:
 programmer:
 builder:
 img: /images/IMG_2807.jpg #
-video: https://www.youtube.com/embed/5zQBUoj7-ic #must be embed link
+img: /images/IMG_7194 (1).jpg #
 ---
 Distinctions:
 - Internationals Qualified
