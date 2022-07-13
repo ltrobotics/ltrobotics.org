@@ -3,9 +3,8 @@ layout: teams
 title: Omnitron
 subtitle: '51200A'
 desc: We are the second team in the LT Robotics
-team: ddd
-programmer: Hello
-builder: Wow
+team: Andrew Mathew
+builder: Daniel, Ayesha, Connor, Hanna
 img: /images/IMG_2793.jpg #
 
 ---
