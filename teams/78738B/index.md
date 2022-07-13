@@ -3,9 +3,9 @@ layout: teams
 title: Omnitron
 subtitle: '51200A'
 desc: We are the second team in the LT Robotics
-driver: 
-programmer: 
-builder: 
+team: ddd
+programmer: Hello
+builder: Wow
 img: /images/IMG_2793.jpg #
 
 ---
