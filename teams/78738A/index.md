@@ -4,7 +4,7 @@ title: Parallax
 subtitle: '51200E'
 desc: Strong Internationally ranked Robotics team that has won numerous awards including best Programming at State. Ready to compete at Worlds in 2023
 driver: Joshua Koshy
-builder: Sam, Dinesh, Satvik, Jon, Prakul
+builder: Sam Orgeldinger, Dinesh Nathaniel, Satvik Kumar, Jonathon Vigo, Prakul Sheridar
 img: /images/IMG_3036.jpg #
 video: "https://www.youtube.com/embed/UY05fHViyhw" 
 ---
