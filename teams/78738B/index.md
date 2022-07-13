@@ -6,7 +6,7 @@ desc: We are the second team in the LT Robotics
 driver: 
 programmer: 
 builder: 
-img: /images/2793.jpg #
+img: /images/IMG_2793.jpg #
 video: https://www.youtube.com/embed/TvLkxLwfaHc #must be embed link
 ---
 Distinctions
