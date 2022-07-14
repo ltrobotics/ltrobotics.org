@@ -17,7 +17,7 @@ video: "https://www.youtube.com/embed/UY05fHViyhw"
 Robot Specs:
 - 6 Motor Drive
 - 2 Piston Back Lift
-- 1 Piston Clamp
+- 1 Piston Locking Clamp
 - 1 Motor Front Lift
 - 1 Motor Ring Intake
 - Banded Kickstands
