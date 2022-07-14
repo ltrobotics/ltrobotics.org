@@ -4,7 +4,7 @@ layout: default
 title: Home
 
 #images
-logoImg: /images/logo_black.png
+logoImg: /images/roboticspngWHITECENTER.png
 storyImg: /images/lths.jpg
 #story
 storyTitle: The Lake Travis Story
