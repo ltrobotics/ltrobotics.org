@@ -4,7 +4,7 @@ title: Blitz
 subtitle: '51200B'
 desc: Internationally ranked team with an unique design
 driver: Andrew Mathew
-builder: Daniel, Ayesha, Connor, Hanna
+builder: Daniel Camargo, Ayesha Haider, Connor West, Hanna Ngo
 distinctions: 
 distinctions2: -Internationals Qualified
 distinctions3: -Design Award
