@@ -14,8 +14,8 @@ img: /images/IMG_3036.jpg #
 video: "https://www.youtube.com/embed/UY05fHViyhw" 
 ---
 Robot Specs:
-- Internationals Qualified
-- Tournament Champion
-- Skills Champion
-- Excellence Award
-- Think Award
+- 6 Motor Drive
+- 2 Piston Back Lift
+- 1 Piston Clamp
+- 1 Motor Front Lift
+- 1 Motor Ring Intake
