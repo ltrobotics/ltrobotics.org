@@ -1,7 +1,7 @@
 ---
 layout: teams
-title: Blitz
-subtitle: '51200B'
+title: Omnitron
+subtitle: '51200A'
 desc: Internationally ranked team that performed especially well at Worlds
 driver: Sonika Kieler
 builder: Ryan, Karen, Charles
