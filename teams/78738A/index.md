@@ -19,3 +19,4 @@ Robot Specs:
 - 1 Piston Clamp
 - 1 Motor Front Lift
 - 1 Motor Ring Intake
+- Banded Kickstands
