@@ -1,10 +1,10 @@
-- name: Constitution
+- name: ByLaws
   desc: The governing principles of the Club
   link: #
 
-- name: Bylaws
+- name: Interest Form
   desc: The rules that all members must abide by
-  link: #
+  link: https://docs.google.com/forms/d/1rAt58RwicnlxAcEw2_oOflViM2IYKy5ZiU4cEOs2rGc/prefill
 
 - name: Sponsorship Form
   desc: Permission form that needs to be turned in prior to attending events
