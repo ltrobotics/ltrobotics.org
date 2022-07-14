@@ -4,8 +4,8 @@ layout: default
 title: Home
 
 #images
-logoImg: /images/roboticspngWHITECENTER.png
-storyImg: /images/lths.jpg
+logoImg: /images/logo_black.png
+storyImg: /images/LTHS.jpg
 #story
 storyTitle: The Lake Travis Story
 storyTag: A small but rapidly growing program
