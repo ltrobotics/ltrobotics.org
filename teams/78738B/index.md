@@ -1,7 +1,7 @@
 ---
 layout: teams
-title: Omnitron
-subtitle: '51200A'
+title: Blitz
+subtitle: '51200B'
 desc: Internationally ranked team with an unique design
 driver: Andrew Mathew
 builder: Daniel, Ayesha, Connor, Hanna
