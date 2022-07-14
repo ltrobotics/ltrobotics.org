@@ -11,7 +11,7 @@ img: /images/IMG_2807.jpg #
 
 
 ---
-Specs:
+Robot Specs:
 - 4 Motor Drive
 - 2 Motor Front Lift
 - 1 Motor Back Lift
