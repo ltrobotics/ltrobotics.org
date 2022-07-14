@@ -16,6 +16,6 @@ Lake Travis High School Robotics has been active from 2019-2022.\
 Our coach for this year is Mr. Erik.\
 \
 Currently, the program consist of three teams:
-Europa(51200E), Omnitron(51200A), and Blitz(51200B).\
+Europa(51200E), Blitz(51200B) and Omnitron(51200A).\
 \
-We are a small but successfull program, with 3 teams traveling to internationals.
+We are a small but successfull program, having sent 3 teams to internationals.
