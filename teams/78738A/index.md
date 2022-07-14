@@ -6,7 +6,7 @@ desc: Strong Internationally ranked Robotics team that has won numerous awards i
 driver: Joshua Koshy
 builder: Sam Orgeldinger, Dinesh Nathaniel, Satvik Kumar, Jonathon Vigo, Prakul Sheridar
 distinctions: Internationals Qualified
-              <b>Tournament Champion
+              Tournament Champion
               Skills Champion
               Excellence Award
               Think Award
