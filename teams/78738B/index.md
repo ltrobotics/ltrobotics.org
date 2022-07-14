@@ -15,6 +15,5 @@ Robot Specs
 - 4 Motor Drive
 - 2 Motor Front Lift
 - 1 Motor Back Lift
-- 1 Motor Clamp
-- Notebook Award\
+- 1 Motor Clamp\
 View more videos of our robot here: [Google Drive Link](https://drive.google.com/drive/folders/1zKEFD8j05I1AcIS_jm5C9jBCvoCSQghR?usp=sharing)
