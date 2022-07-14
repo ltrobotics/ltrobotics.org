@@ -16,4 +16,3 @@ Robot Specs:
 - 2 Motor Front Lift
 - 1 Motor Back Lift
 - 1 Motor Clamp
-- Notebook Award
