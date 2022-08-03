@@ -18,4 +18,4 @@ Our coach for this year is Mr. Erik Fogle.\
 Currently, the program consist of three teams:
 Europa(51200E), Blitz(51200B) and Omnitron(51200A).\
 \
-We are a small but successfull program, having sent 3 teams to internationals.
+We are a small but successful program, having sent 3 teams to internationals.
