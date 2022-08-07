@@ -3,7 +3,7 @@ layout: teams
 title: Omnitron
 subtitle: '51200A'
 desc: Internationally ranked team that performed especially well at Worlds
-driver: Sonika Kieler
+driver: Sonika Kiehler
 builder: Ryan Vo, Karen Bui, Charles Beckstead
 distinctions: 
 distinctions2: -Internationals Qualified
