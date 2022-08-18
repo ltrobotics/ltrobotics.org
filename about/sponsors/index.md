@@ -2,6 +2,7 @@
 layout: normal
 title: Sponsors
 subtitle: We are very grateful for these organizations for sponsoring us!
+If you are
 ---
 <div class="box-alt">
   <div class="row gtr-uniform">
