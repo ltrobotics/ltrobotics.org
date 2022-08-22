@@ -4,7 +4,7 @@ title: Parallax
 subtitle: '51200E'
 desc: Strong Internationally ranked Robotics team that has won numerous awards including best Programming at State.
 driver: Joshua Koshy
-builder: Sam Orgeldinger, Dinesh Nathaniel, Satvik Kumar, Jonathon Vigo, Prakul Sheridar
+builder: Sam Orgeldinger, Dinesh Nathaniel, Satvik Kumar, Jonathon Vigo
 distinctions: 
 distinctions2: -Internationals Qualified
 distinctions3: -Tournament Champion
