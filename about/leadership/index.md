@@ -1,7 +1,7 @@
 ---
 layout: normal
 title: Leadership
-subtitle: The officers for the 2020 - 2021 school year
+subtitle: The officers for the 2022 - 2023 school year
 ---
 <div class="row gtr-5000">
   {% for officer in site.data.officers %}
