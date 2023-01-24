@@ -26,6 +26,6 @@ subtitle: Questions? Want to join the team? Contact us here using email! *The fo
       </div>
     </form>
     <p> You can also contact us at <a href="mailto:ltrobotics78738@gmail.com">ltrobotics78738@gmail.com</a></p>
-    <p> Or keep up with our teams at <a href="mailto:https://instagram.com/lthsrobotics/">instagram.com/lthsrobotics/</a></p>
+    <p> Or keep up with our teams at <a href="mailto:ltrobotics Instagram">https://instagram.com/lthsrobotics/</a></p>
   </section>
 </section>
