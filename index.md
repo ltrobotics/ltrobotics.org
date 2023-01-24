@@ -18,4 +18,4 @@ Our coach for this year is Mr. Eric Fogle.\
 Currently, the program consist of three teams:
 Parallax(654X), Blitz(654B) and Omnitron(654A).\
 \
-We are a small but successful program, having sent 3 teams to VEX Worlds.
+We are a small but successful program, having sent 3 teams to VEX Worlds in 2022.
