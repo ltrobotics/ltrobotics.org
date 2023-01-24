@@ -12,7 +12,7 @@ distinctions4: -Skills Champion
 distinctions5: -Excellence Award x 2
 distinctions6: -Think Award
 img: /images/IMG_3036.jpg #
-video: "https://www.youtube.com/embed/umMsFpNkGgY" 
+video: "https://www.youtube.com/watch?v=7-QS9GJcbs" 
 ---
 Robot Specs:
 - 6 Motor Drive
