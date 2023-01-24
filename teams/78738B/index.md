@@ -1,18 +1,19 @@
 ---
 layout: teams
-title: Omnitron
-subtitle: '654A'
-desc: Internationally ranked team that performed especially well at Worlds
-driver: Sonika Kiehler
-builder: Ryan Vo, Karen Bui, Charles Beckstead
+title: Blitz
+subtitle: '654B'
+desc: Internationally ranked team with an award winning design
+driver: Andrew Mathew
+builder: Daniel Camargo, Ayesha Haider, Connor West, Hanna Ngo
 distinctions: 
 distinctions2: -Internationals Qualified
-img: /images/IMG_2807.jpg #
-
+distinctions3: -Design Award
+img: /images/IMG_2793.jpg #
 
 ---
-Robot Specs:
+Robot Specs
 - 4 Motor Drive
 - 2 Motor Front Lift
 - 1 Motor Back Lift
-- 1 Motor Clamp
+- 1 Motor Clamp\
+View more videos of our robot here: [Google Drive Link](https://drive.google.com/drive/folders/1zKEFD8j05I1AcIS_jm5C9jBCvoCSQghR?usp=sharing)
