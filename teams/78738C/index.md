@@ -16,4 +16,4 @@ Robot Specs:
 - 4 Motor Drive
 - 2 Motor Flywheel
 - 2 Motor Intake
-- 1 Pnumatic Expansion
+- 1 Pneumatic Expansion
