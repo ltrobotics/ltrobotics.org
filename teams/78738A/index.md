@@ -18,6 +18,6 @@ Robot Specs:
 - 6 Motor Drive
 - 1 Motor Catapult
 - 1 Motor Intake/Rollers
-- 2 Pnumatic Piston Boost
-- 2 Pnumatic Expansion
-- 2 Pnumatic Endgame Blocker
+- 2 Pneumatic Piston Boost
+- 2 Pneumatic Expansion
+- 2 Pneumatic Endgame Blocker
